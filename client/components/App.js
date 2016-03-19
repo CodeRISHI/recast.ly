@@ -8,6 +8,13 @@ class App extends React.Component {
     };
   }
 
+  onVideoClick (videoID) {
+    console.log('video was clicked');
+    this.setState({
+      nowPlaying: videoID
+    });
+  }
+
   render () {
     return (
       <div>

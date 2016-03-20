@@ -11,6 +11,7 @@ var searchYouTube = (options, callback) => {
     '&q=' + updatedOptions.query + // do we need to process this string?
     '&type=video' +
     '&videoEmbeddable=true' + 
+    '&vq=hd1080' +
     '&key=' + updatedOptions.key;
 
   // TODO
